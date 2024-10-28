@@ -9,7 +9,6 @@ This project implements a deep learning model to classify images of trash into c
 - [Setup](#setup)
 - [Training the Model](#training-the-model)
 - [Evaluation](#evaluation)
-- [Inference](#inference)
 - [Acknowledgements](#acknowledgements)
 
 ## Project Overview
@@ -64,20 +63,6 @@ Run the evaluation script to generate accuracy metrics, a classification report,
 python modelling_DL.ipynb
 ```
 The model’s accuracy, precision, recall, and F1-score will be printed for each trash category. Additionally, the confusion matrix provides insights into which categories are most often misclassified.
-
-## Inference
-To make predictions with the trained model, load it using:
-```bash
-import torch
-from model import SimpleCNN
-
-# Load model and set to evaluation mode
-model = SimpleCNN()
-model.load_state_dict(torch.load("model.pth"))
-model.eval()
-
-# Code to process an input image and get predictions
-```
 
 ## Acknowledgements
 Special thanks to the creators of the TrashNet dataset and Hugging Face for dataset hosting, as well as the PyTorch community for supporting deep learning research.
