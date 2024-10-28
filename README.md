@@ -41,10 +41,10 @@ pip install -r requirements.txt
 ## Setup
 Clone this repository and navigate to the project directory:
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/SaifulAnw/My-Trash-Classifier.git
 ```
 ```bash
-cd your-repo-name
+cd My-Trash-Classifier
 ```
 Set up your environment:
 
@@ -54,14 +54,14 @@ Download the TrashNet dataset from Hugging Face: [TrashNet on Hugging Face](http
 ## Training the Model
 To train the model, execute:
 ```bash
-python modelling-DL.ipynb
+python modelling_DL.ipynb
 ```
 This script will handle data loading, augmentations, and training. Adjust hyperparameters in train.py to experiment with different model configurations.
 
 ## Evaluation
 Run the evaluation script to generate accuracy metrics, a classification report, and a confusion matrix:
 ```bash
-python modelling-DL.ipynb
+python modelling_DL.ipynb
 ```
 The model’s accuracy, precision, recall, and F1-score will be printed for each trash category. Additionally, the confusion matrix provides insights into which categories are most often misclassified.
 
