@@ -52,16 +52,14 @@ Download the TrashNet dataset from Hugging Face: [TrashNet on Hugging Face](http
 
 ## Training the Model
 To train the model, execute this notebook:
-```bash
-modelling_DL.ipynb
-```
+*modelling_DL.ipynb*
+
 This script will handle data loading, augmentations, and training. Adjust hyperparameters in train.py to experiment with different model configurations.
 
 ## Evaluation
 Run the evaluation script to generate accuracy metrics, a classification report, and a confusion matrix on this notebook:
-```bash
-modelling_DL.ipynb
-```
+*modelling_DL.ipynb*
+
 The model’s accuracy, precision, recall, and F1-score will be printed for each trash category. Additionally, the confusion matrix provides insights into which categories are most often misclassified.
 
 ## Acknowledgements
